@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/red.png");
+    background-size: cover;
+    color: white;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.card {
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 1rem;
+    border-radius: 2rem;
+    background-color: black;
+    height: 42.5rem;
+    width: 90rem;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2rem;
+}
+.logo{
+    font-family:"Great Vibes", cursive;
+    font-size: 28px;
+    font-weight: 900;
+    color: #762124;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 3.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+li:hover {
+    border-bottom: 2px solid #762124;
+}
+a:hover {
+    padding-bottom:5px;
+    color: #762124;
+}
+.description {
+    margin-top: 5rem;
+    margin-left: 0.3rem;
+
+    display: flex;
+    gap: 3rem;
+}
+img {
+    height: 60vh;
+    width: 20vw;
+}
+.boy {
+    border-radius: 50%;
+}
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 30vh;
+    margin-top: 8rem;
+}
+span {
+    color: white;
+}
+.portfolio-heading {
+    width: 220px;
+}
+h1 {
+    font-size: inherit;
+}
+.name {
+    font-size: 27px;
+}
+.work {
+    color: #762124;
+}
+p {
+    font-size: 20px;
+}
+.inline {
+    color: #762124;
+}
+
+#btn {
+    background-color: transparent;
+    width: 200px;
+    color: #762124;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4rem;
+    border: 2px solid #762124;
+}
